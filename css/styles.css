@@ -1,0 +1,54 @@
+/*sport psych website css*/
+
+/*
+Colors used:
+For print: #6B4BE8 (indigo-ish, probably change to more vibrant color later)
+Background: #C2B8E9 (lighter version of print color)
+*/
+
+
+
+
+*{
+    font-family: 'century gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 70px;
+    text-align: right;
+    color: #6B4BE8;
+    height: 50%;
+    padding-right: 60px;
+}
+
+nav{
+    height: 100%; /* 100% Full-height */
+    width: 15%; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    /*top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #C2B8E9;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 90px; /* Place content 60px from the top */
+    /*transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.nav{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.nav>li{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+main{
+    margin-top: 70px;
+    margin-left: 18%;
+    font-size: 20px;
+}
